@@ -243,13 +243,21 @@ nav ul {
   align-items: flex-start;
   gap: 2rem;
   flex-wrap: wrap;
+  color: black;
+  text-decoration: none;
 }
 
 .about-text {
   flex: 1.5;
   color: black;
+  text-decoration: none;
 }
 
+.about-text a{
+  flex: 1.5;
+  color: black;
+  text-decoration: none;
+}
 
 
 .about-image {
