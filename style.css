@@ -260,6 +260,14 @@ nav ul {
 }
 
 
+.pricing td:last-child {
+  padding-left: 2rem; /* adjust space as needed */
+}
+
+.pricing td {
+  padding: 0.5rem 1.5rem;
+}
+
 .about-image {
   flex: 1;
 }
