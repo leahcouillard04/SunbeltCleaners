@@ -41,13 +41,7 @@ body {
   left: 2rem;
 }
 
-nav ul {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 
 .nav-links a {
   text-decoration: none;
