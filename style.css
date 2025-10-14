@@ -10,14 +10,22 @@ body {
   font-weight: 400;
   color: black;
 }
+textarea{
+  font-family: "Spectral", serif;
+}
+input{
+  font-family: "Spectral", serif;
+}
 
-/* ========== Navbar ========== */
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Spectral", serif;
+  background-color: #D1E6F0;
 }
-
+/* ========== Navbar ========== */
 .navbar {
   display: flex;
   position: relative;
@@ -26,7 +34,7 @@ body {
   background-color: white;
   padding: 0 2rem;
   border-bottom: 1px solid #eee;
-  max-width: 1200px;
+  
   margin: 0 auto;
   min-height: 90px;
 }
@@ -276,6 +284,70 @@ body {
   width: 100%;
   height: auto;
   border-radius: 12px;
+}
+
+/* ========== Contact page ========== */
+.contact-section{
+  height: 100vh;
+  display: flex;
+}
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.contact-left-title h2{
+  font-weight: 600;
+  font-size: 40px;
+  color: #066994;
+}
+.contact-left-title hr{
+  border: none;
+  width: 120px;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  border-radius: 50px;
+  color: #666;
+}
+
+.contact-left textarea{
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.contact-inputs:focus{
+  border: 2px solid #ff994f;
+}
+
+.contact-inputs:placeholder{
+  color: #a9a9a9;
+}
+
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #5EB6DB, #0E668C);
+  cursor: pointer;
+  font-family: "Spectral", serif;
 }
 
 /* ========== for mobile devices ========== */
